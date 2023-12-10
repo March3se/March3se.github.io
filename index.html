@@ -1,66 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sea View House | Coming Soon</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
+        <title>Realseaview - Maintenance mode</title>
 
-        .container {
-            text-align: center;
-        }
+        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" href="https://image.realseaview.co.uk/uploads/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://image.realseaview.co.uk/uploads/favicon.ico">
 
-        .logo {
-            width: 100px; /* Adjust the width as needed */
-            height: auto;
-        }
+        <style>
+            html, body {
+                height: 100%;
+            }
 
-        h1 {
-            color: #333;
-        }
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                color: #fff;
+                display: table;
+                font-weight: bold;
+                font-family: 'Lato', sans-serif;
+                background-color: crimson;
+            }
 
-        p {
-            color: #666;
-        }
+            .container {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+            }
 
-        .countdown {
-            margin-top: 20px;
-            font-size: 24px;
-        }
+            .content {
+                text-align: center;
+                display: inline-block;
+            }
 
-        footer {
-            margin-top: 20px;
-            color: #888;
-        }
-    </style>
-</head>
+            .title {
+                font-size: 50px;
+                margin-bottom: 40px;
+                padding-left: 20px;
+                padding-right: 20px;
+                
+            }
 
-<body>
-    <div class="container">
-        <img class="logo" src="your-logo.png" alt="Sea View Homes Logo"> <!-- Replace 'your-logo.png' with your actual logo -->
-        <h1>Sea View House</h1>
-        <p>Exciting things are coming soon!</p>
-        <div class="countdown">
-            <p id="demo" class="countdown"></p>
+            p {
+                color: #666;
+            }
+
+            .countdown {
+                margin-top: 20px;
+                font-size: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="title">Update in progress!<br> The website will be available soon.</div>
+            </div>
+            <div class="countdown">
+                <p id="demo" class="countdown"></p>
+            </div>
         </div>
-    </div>
 
-    <footer>
-        &copy; 2023 Sea View House. All rights reserved.
-    </footer>
-
-    <script>
+        <script>
         // Set the date we're counting down to (replace with your launch date)
         var countDownDate = new Date("Dec 31, 2023 00:00:00").getTime();
 
@@ -89,6 +96,5 @@
             }
         }, 1000);
     </script>
-</body>
-
+    </body>
 </html>
